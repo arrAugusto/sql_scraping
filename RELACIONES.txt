@@ -1,0 +1,10 @@
+select * from tbl_categorias where PK_UUID_CATEGORIA = 'a699413a-dd23-4180-8cdd-0a3ca2df7f46';
+
+select * from tbl_urls_paginadas where url_base = 'https://electronicapanamericana.com/categoria-productos/tecnologia/tablets/';
+
+select * from tbl_urls_paginadas where FK_UUID_CATEGORIA = 'a699413a-dd23-4180-8cdd-0a3ca2df7f46';
+
+
+SELECT * FROM scraping_shop.tbl_urls_for_page where FK_UUID_PAGINA like 'd890e13d-78cc-4192-9342-021111207229';/*d890e13d-78cc-4192-9342-021111207229*/
+
+select * from tbl_producto where FK_UUID_PAGINA = '31affc71-4b21-44f1-bbb7-14f9c78a455d';
